@@ -1,0 +1,61 @@
+-------------NUMBERS DIVIDED BY 7 AND NOT MULTIPLE BY 5--------
+
+x=int(float(input("Enter a start value :")))
+y=int(float(input("Enter a end value :")))
+z=[]
+for i in range(x,y):
+  if(i%7==0 and i%5 !=0):
+    z.append(i)
+print(z)
+
+----------------First name and last name in rev order with space between ----------
+
+x=input()
+y=input()
+a=""
+b=""
+i=(len(x)-1)
+j=(len(y)-1)
+while i>=0:
+  a=a+x[i]
+  i=i-1
+for ja in range(len(y)):
+  b=b+y[ja]
+print(b[::-1]," ",a)
+
+--------------------Find the volume of a sphere----------
+
+x=int(float(input("Enter a diameter to find the volume of the sphere ")))/2
+y=4/3*3.14*x*x*x
+print("The volume of the sphere is ",y)
+
+
+
+Assignment 2
+
+
+---------Arrow pattern--------
+for i in range(5):
+  for j in range(i):
+    print("*",end="")
+  print()
+for i in range(5,0,-1):
+  for j in range(i):
+    print("*",end="")
+  print()
+
+=---------------reverse of the word
+x=input("Enter a word :")
+y=(len(x)-1)
+z=""
+while y>=0:
+  z=z+x[y]
+  y=y-1
+print(z)
+
+----------------
+
+
+
+
+
